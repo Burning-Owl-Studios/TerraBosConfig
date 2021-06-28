@@ -24,6 +24,8 @@ tags:
   - "HOT"
   - "DRY"
   - "RIVER_ERODE"
+carving:
+  CAVE_DESERT: 55
   
 flora:
   - density: 1
@@ -32,6 +34,9 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 1
+      - STALAGMITE_SANDSTONE: 1
+      - STALACTITE_SANDSTONE: 1
+      - HANGING_ROOTS: 1
   - density: 2
     y:
       min: 62
@@ -39,6 +44,16 @@ flora:
     items:
       - DEAD_BUSH: 1
       - SMALL_ROCK: 1
+      - STALAGMITE_SANDSTONE: 1
+      - STALACTITE_SANDSTONE: 1
+      - HANGING_ROOTS: 1
+  - density: 2
+    y:
+      min: 15
+      max: 84
+    items:
+      - DEAD_BUSH: 1
+      - HANGING_ROOTS: 1
 
 erodible: true
 

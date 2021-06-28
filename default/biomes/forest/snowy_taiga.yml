@@ -24,16 +24,25 @@ tags:
 flora:
   - density: 1
     y:
+      min: 30
+      max: 60
+    items:
+      - CEILING_LEAVES_SPRUCE: 1
+  - density: 1
+    y:
       min: 10
       max: 56
     items:
       - GLOW_LICHEN: 1
+      - FLOOR_BUTTON: 1
+      - HANGING_ROOTS: 1
   - density: 80
     y:
       min: 62
       max: 156
     items:
       - SNOW: 1
+      - FLOOR_BUTTON: 1
   - density: 40
     y:
       min: 62
@@ -42,6 +51,7 @@ flora:
       - TALL_GRASS: 15
       - GRASS: 70
       - SWEET_BERRIES: 1
+      - FLOOR_BUTTON: 1
 trees:
   - density: 0.75
     items:

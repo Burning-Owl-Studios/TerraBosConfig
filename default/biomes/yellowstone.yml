@@ -45,6 +45,8 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 1
+      - FLOOR_BUTTON: 1
+      - FLOOR_BUTTON: 1
   - density: 100
     items:
       - Y_TERRACOTTA_PLACER: 1
@@ -54,24 +56,28 @@ flora:
   - density: 100
     items:
       - R_SAND_PLACER: 1
+      - FLOOR_BUTTON: 1
     y:
       min: 60
       max: 64
   - density: 100
     items:
       - BASALT_PLACER: 1
+      - FLOOR_BUTTON: 1
     y:
       min: 60
       max: 64
   - density: 100
     items:
       - BLACKSTONE_PLACER: 1
+      - FLOOR_BUTTON: 1
     y:
       min: 60
       max: 64
   - density: 100
     items:
       - GRAVEL_PLACER: 1
+      - FLOOR_BUTTON: 1
     y:
       min: 60
       max: 64
@@ -81,18 +87,21 @@ flora:
       - GRASS: 75
       - TALL_GRASS: 15
       - DEAD_BUSH: 5
+      - FLOOR_BUTTON: 1
     y:
       min: 62
       max: 100
   - density: 20
     items:
       - SNOW: 1
+      - FLOOR_BUTTON: 1
     y:
       min: 76
       max: 96
   - density: 50
     items:
       - SNOW: 1
+      - FLOOR_BUTTON: 1
     y:
       min: 97
       max: 128

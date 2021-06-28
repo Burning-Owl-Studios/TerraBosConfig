@@ -31,6 +31,7 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 1
+      - FLOOR_BUTTON: 1
   - density: 50
     y:
       min: 62
@@ -47,6 +48,7 @@ flora:
       - ORANGE_TULIP: 1
       - WHITE_TULIP: 1
       - PINK_TULIP: 1
+      - FLOOR_BUTTON: 1
 
 trees:
   - density: 0.75

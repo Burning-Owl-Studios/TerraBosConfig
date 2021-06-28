@@ -1,0 +1,11 @@
+layers:
+  - materials:
+      - "minecraft:small_dripleaf": 1
+    layers: 1
+
+id: "SMALL_DRIPLEAF"
+spawnable:
+  - "minecraft:moss_block"
+replaceable:
+  - "minecraft:air"
+ceiling: false

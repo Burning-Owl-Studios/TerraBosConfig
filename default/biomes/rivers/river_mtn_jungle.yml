@@ -39,7 +39,7 @@ flora:
       max: 180
   - density: 14
     items:
-      - CEILING_LEAVES: 2
+      - CEILING_LEAVES_JUNGLE: 2
       - VINES: 2
       - VINES_TALL: 1
       - STALACTITE: 1

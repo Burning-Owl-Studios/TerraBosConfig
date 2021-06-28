@@ -1,0 +1,47 @@
+id: "CAVE_TAIGA"
+extends: CAVE_ABSTRACT
+
+length:
+  min: 30
+  max: 90
+palette:
+  inner:
+    replace-blacklist: true
+    replace:
+      - "minecraft:air"
+      - "minecraft:water"
+      - "minecraft:lava"
+      - "minecraft:bedrock"
+      - "minecraft:ice"
+    layers:
+      - materials: { "minecraft:air": 1 }
+        y: 255
+      - materials: { "minecraft:lava": 1 }
+        y: 8
+  outer:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:stone": 7, "minecraft:cobblestone": 1 }
+        y: 255
+      - materials: { "minecraft:deepslate": 60, "minecraft:stone": 25, "minecraft:obsidian": 5, "minecraft:blackstone": 10 }
+        y: 20
+  top:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:stone": 7, "minecraft:cobblestone": 1 }
+        y: 255
+      - materials: { "minecraft:deepslate": 60, "minecraft:stone": 25, "minecraft:obsidian": 5, "minecraft:blackstone": 10 }
+        y: 20
+  bottom:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:stone": 7, "minecraft:cobblestone": 1, "minecraft:podzol": 1 }
+        y: 255
+      - materials: { "minecraft:deepslate": 60, "minecraft:stone": 25, "minecraft:obsidian": 5, "minecraft:blackstone": 10 }
+        y: 20

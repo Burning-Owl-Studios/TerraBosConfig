@@ -36,7 +36,7 @@ flora:
       max: 180
   - density: 10
     items:
-      - CEILING_LEAVES: 4
+      - CEILING_LEAVES_JUNGLE: 4
       - STALACTITE: 1
       - SHROOMLIGHT: 1
     y:

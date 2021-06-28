@@ -1,0 +1,17 @@
+layers:
+  - materials:
+      - "minecraft:sandstone_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=low]": 1
+    layers: 1
+  - materials:
+      - "minecraft:sandstone_wall[east=low,north=low,south=low,up=false,waterlogged=false,west=low]": 1
+      - "minecraft:pointed_dripstone": 1
+    layers: 1
+  - materials:
+      - "minecraft:sandstone_wall": 1
+    layers: 1
+id: "STALAGMITE_SANDSTONE"
+spawnable:
+  - "minecraft:sandstone"
+replaceable:
+  - "minecraft:air"
+ceiling: true

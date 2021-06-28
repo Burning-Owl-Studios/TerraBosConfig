@@ -67,6 +67,9 @@ palette:
   - RED_DESERT: 255
 vanilla: BADLANDS
 
+carving:
+  CAVE_MESA: 55
+
 flora:
   - density: 1
     y:

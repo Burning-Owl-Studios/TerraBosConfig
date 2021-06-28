@@ -23,19 +23,19 @@ palette:
     replace:
       - "minecraft:stone"
     layers:
-      - materials: { "minecraft:stone": 1 }
+      - materials: { "minecraft:stone": 50, "minecraft:cobblestone": 20, "minecraft:prismarine": 5 }
         y: 255
   top:
     replace-blacklist: false
     replace:
       - "minecraft:stone"
     layers:
-      - materials: { "minecraft:stone": 1 }
+      - materials: { "minecraft:stone": 50, "minecraft:cobblestone": 20, "minecraft:prismarine": 5 }
         y: 255
   bottom:
     replace-blacklist: false
     replace:
       - "minecraft:stone"
     layers:
-      - materials: { "minecraft:stone": 1 }
+      - materials: { "minecraft:stone": 50, "minecraft:cobblestone": 20, "minecraft:prismarine": 5 }
         y: 255

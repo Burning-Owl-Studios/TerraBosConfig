@@ -37,6 +37,7 @@ flora:
       - ORANGE_TULIP: 1
       - WHITE_TULIP: 1
       - PINK_TULIP: 1
+      - FLOOR_BUTTON: 1
 trees:
   - density: 0.75
     items:

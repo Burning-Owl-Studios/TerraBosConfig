@@ -22,6 +22,8 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 1
+      - FLOOR_BUTTON: 1
+      - HANGING_ROOTS: 1
   - density: 40
     y:
       min: 62
@@ -34,6 +36,7 @@ flora:
       - BLUE_ORCHID: 1
       - ROSE_BUSH: 1
       - LEAVES: 10
+      - FLOOR_BUTTON: 1
 
 trees:
   - density: 0.75

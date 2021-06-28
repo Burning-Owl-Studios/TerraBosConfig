@@ -8,6 +8,7 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 1
+      - FLOOR_BUTTON: 1
   - density: 100
     distribution:
       type: OpenSimplex2
@@ -18,6 +19,7 @@ flora:
     items:
       - BLANK: 7
       - LEAVES: 3
+      - FLOOR_BUTTON: 1
     y:
       min: 62
       max: 180
@@ -26,6 +28,7 @@ flora:
       - TALL_GRASS: 3
       - GRASS: 7
       - SMALL_ROCK: 1
+      - FLOOR_BUTTON: 1
     y:
       min: 62
       max: 180

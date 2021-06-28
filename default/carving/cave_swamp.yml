@@ -1,5 +1,9 @@
 id: "CAVE_SWAMP"
 extends: CAVE_ABSTRACT
+
+length:
+  min: 30
+  max: 90
 palette:
   inner:
     replace-blacklist: true
@@ -23,9 +27,9 @@ palette:
     replace:
       - "minecraft:stone"
     layers:
-      - materials: { "minecraft:stone": 21, "minecraft:spruce_wood": 1, "minecraft:dark_oak_wood": 1, "minecraft:oak_leaves[persistent=true]": 2 }
+      - materials: { "minecraft:stone": 21, "minecraft:mossy_cobblestone": 3, "minecraft:cobblestone": 2, "minecraft:spruce_wood": 1, "minecraft:dark_oak_wood": 1, "minecraft:oak_leaves[persistent=true]": 2 }
         y: 255
-      - materials: { "minecraft:stone": 23, "minecraft:spruce_wood": 1, "minecraft:dark_oak_wood": 1 }
+      - materials: { "minecraft:stone": 23, "minecraft:mossy_cobblestone": 3, "minecraft:cobblestone": 2, "minecraft:spruce_wood": 1, "minecraft:dark_oak_wood": 1 }
         y: 48
       - materials: { "minecraft:stone": 1 }
         y: 18
@@ -34,9 +38,9 @@ palette:
     replace:
       - "minecraft:stone"
     layers:
-      - materials: { "minecraft:stone": 16, "minecraft:spruce_wood": 1, "minecraft:dark_oak_wood": 1, "minecraft:oak_leaves[persistent=true]": 2 }
+      - materials: { "minecraft:stone": 21, "minecraft:mossy_cobblestone": 3, "minecraft:cobblestone": 2, "minecraft:spruce_wood": 1, "minecraft:dark_oak_wood": 1, "minecraft:oak_leaves[persistent=true]": 2 }
         y: 255
-      - materials: { "minecraft:stone": 18, "minecraft:spruce_wood": 1, "minecraft:dark_oak_wood": 1 }
+      - materials: { "minecraft:stone": 92, "minecraft:mossy_cobblestone": 24, "minecraft:cobblestone": 8, "minecraft:spruce_wood": 4, "minecraft:dark_oak_wood": 4, "minecraft:shroomlight" : 1}
         y: 48
       - materials: { "minecraft:stone": 1 }
         y: 18
@@ -45,9 +49,9 @@ palette:
     replace:
       - "minecraft:stone"
     layers:
-      - materials: { "minecraft:stone": 4, "minecraft:spruce_wood": 1, "minecraft:dark_oak_wood": 1, "minecraft:oak_leaves[persistent=true]": 2 }
+      - materials: { "minecraft:stone": 21, "minecraft:mossy_cobblestone": 3, "minecraft:cobblestone": 2, "minecraft:spruce_wood": 1, "minecraft:dark_oak_wood": 1, "minecraft:oak_leaves[persistent=true]": 2 }
         y: 255
-      - materials: { "minecraft:stone": 6, "minecraft:spruce_wood": 1, "minecraft:dark_oak_wood": 1 }
+      - materials: { "minecraft:stone": 23, "minecraft:mossy_cobblestone": 3, "minecraft:cobblestone": 2, "minecraft:spruce_wood": 1, "minecraft:dark_oak_wood": 1 }
         y: 48
       - materials: { "minecraft:stone": 1 }
         y: 18

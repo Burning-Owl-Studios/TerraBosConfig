@@ -29,7 +29,7 @@ flora:
       - ROOT: 3
 
 carving:
-  CAVE_SWAMP: 55
+  CAVE_SWAMP: 70
 
 structures:
   - SWAMP

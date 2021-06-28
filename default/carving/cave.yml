@@ -16,19 +16,28 @@ palette:
         y: 8
   outer:
     replace-blacklist: false
-    replace: [ ]
+    replace:
+      - "minecraft:stone"
     layers:
-      - materials: { "minecraft:stone": 1 }
+      - materials: { "minecraft:stone": 75, "minecraft:cobblestone": 10, "minecraft:mossy_cobblestone": 5, "minecraft:oak_leaves[persistent=true]": 2, "minecraft:andesite": 10 }
         y: 255
+      - materials: { "minecraft:stone": 75, "minecraft:cobblestone": 5, "minecraft:mossy_cobblestone": 1, "minecraft:andesite": 5 }
+        y: 30
   top:
     replace-blacklist: false
-    replace: [ ]
+    replace:
+      - "minecraft:stone"
     layers:
-      - materials: { "minecraft:stone": 1 }
+      - materials: { "minecraft:stone": 75, "minecraft:cobblestone": 10, "minecraft:mossy_cobblestone": 5, "minecraft:oak_leaves[persistent=true]": 2, "minecraft:andesite": 10 }
         y: 255
+      - materials: { "minecraft:stone": 75, "minecraft:cobblestone": 5, "minecraft:mossy_cobblestone": 1, "minecraft:andesite": 5 }
+        y: 30
   bottom:
     replace-blacklist: false
-    replace: [ ]
+    replace:
+      - "minecraft:stone"
     layers:
-      - materials: { "minecraft:stone": 1 }
+      - materials: { "minecraft:stone": 75, "minecraft:cobblestone": 10, "minecraft:mossy_cobblestone": 5, "minecraft:andesite": 10 }
         y: 255
+      - materials: { "minecraft:stone": 75, "minecraft:cobblestone": 5, "minecraft:mossy_cobblestone": 1, "minecraft:andesite": 5 }
+        y: 30

@@ -1,0 +1,55 @@
+id: CAVE_DESERT
+extends: CAVE_ABSTRACT
+palette:
+  inner:
+    replace-blacklist: true
+    replace:
+      - "minecraft:air"
+      - "minecraft:water"
+      - "minecraft:lava"
+      - "minecraft:bedrock"
+      - "minecraft:ice"
+    layers:
+      - materials: { "minecraft:air": 1 }
+        y: 255
+      - materials: { "minecraft:lava": 1 }
+        y: 8
+  outer:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:stone": 10, "minecraft:sandstone": 40, "minecraft:red_sandstone": 5, "minecraft:cut_sandstone": 20, "minecraft:cut_red_sandstone": 5 }
+        y: 255
+      - materials: { "minecraft:stone": 10, "minecraft:sandstone": 40, "minecraft:red_sandstone": 10, "minecraft:cut_sandstone": 20, "minecraft:cut_red_sandstone": 10 }
+        y: 55
+      - materials: { "minecraft:stone": 60, "minecraft:sandstone": 40, "minecraft:red_sandstone": 10, "minecraft:cut_sandstone": 20, "minecraft:cut_red_sandstone": 10 }
+        y: 45
+      - materials: { "minecraft:stone": 250, "minecraft:sandstone": 40, "minecraft:red_sandstone": 10, "minecraft:cut_sandstone": 20, "minecraft:cut_red_sandstone": 10 }
+        y: 25
+  top:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:stone": 10, "minecraft:sandstone": 40, "minecraft:red_sandstone": 5, "minecraft:cut_sandstone": 20, "minecraft:cut_red_sandstone": 5 }
+        y: 255
+      - materials: { "minecraft:stone": 10, "minecraft:sandstone": 40, "minecraft:red_sandstone": 10, "minecraft:cut_sandstone": 20, "minecraft:cut_red_sandstone": 10 }
+        y: 55
+      - materials: { "minecraft:stone": 60, "minecraft:sandstone": 40, "minecraft:red_sandstone": 10, "minecraft:cut_sandstone": 20, "minecraft:cut_red_sandstone": 10 }
+        y: 45
+      - materials: { "minecraft:stone": 250, "minecraft:sandstone": 40, "minecraft:red_sandstone": 10, "minecraft:cut_sandstone": 20, "minecraft:cut_red_sandstone": 10 }
+        y: 25
+  bottom:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:stone": 10, "minecraft:sandstone": 40, "minecraft:red_sandstone": 5, "minecraft:cut_sandstone": 20, "minecraft:cut_red_sandstone": 5, "minecraft:sand": 10, "minecraft:red_sand": 2 }
+        y: 255
+      - materials: { "minecraft:stone": 10, "minecraft:sandstone": 40, "minecraft:red_sandstone": 10, "minecraft:cut_sandstone": 20, "minecraft:cut_red_sandstone": 10, "minecraft:sand": 10, "minecraft:red_sand": 5 }
+        y: 255
+      - materials: { "minecraft:stone": 60, "minecraft:sandstone": 40, "minecraft:red_sandstone": 10, "minecraft:cut_sandstone": 20, "minecraft:cut_red_sandstone": 10, "minecraft:sand": 10, "minecraft:red_sand": 5 }
+        y: 50
+      - materials: { "minecraft:stone": 250, "minecraft:sandstone": 40, "minecraft:red_sandstone": 10, "minecraft:cut_sandstone": 20, "minecraft:cut_red_sandstone": 10, "minecraft:sand": 10, "minecraft:red_sand": 5 }
+        y: 30

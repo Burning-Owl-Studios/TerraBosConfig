@@ -15,13 +15,24 @@ tags:
   - "LAND"
   - "DRY"
   - "RIVER_ERODE"
+carving:
+  CAVE_SAVANNA: 55
+
 flora:
+  - density: 1
+    y:
+      min: 30
+      max: 60
+    items:
+      - CEILING_LEAVES_ACACIA: 1
   - density: 1
     y:
       min: 10
       max: 56
     items:
       - GLOW_LICHEN: 1
+      - FLOOR_BUTTON: 1
+      - HANGING_ROOTS: 1
   - density: 40
     y:
       min: 62
@@ -29,6 +40,7 @@ flora:
     items:
       - TALL_GRASS: 15
       - GRASS: 70
+      - FLOOR_BUTTON: 1
 
 trees:
   - density: 0.75

@@ -1,0 +1,19 @@
+layers:
+  - materials:
+      - "minecraft:sea_pickle[pickles=1]": 1
+    layers: 1
+
+id: "SEA_PICKLE_ONE"
+spawnable:
+  - "minecraft:moss_block"
+  - "minecraft:stone"
+  - "minecraft:cobblestone"
+  - "minecraft:mossy_cobblestone"
+  - "minecraft:grass_block"
+  - "minecraft:dirt"
+  - "minecraft:gravel"
+  - "minecraft:prismarine"
+replaceable:
+  - "minecraft:air"
+  - "minecraft:water"
+ceiling: false

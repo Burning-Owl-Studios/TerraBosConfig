@@ -1,7 +1,7 @@
 id: "RAVINE"
 length:
   min: 30
-  max: 60
+  max: 120
 start:
   x: 1
   y: 0.0

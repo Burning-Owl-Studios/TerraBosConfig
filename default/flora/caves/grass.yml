@@ -1,0 +1,18 @@
+layers:
+  - materials:
+      - "minecraft:grass": 1
+    layers: 1
+
+id: "GRASS"
+spawnable:
+  - "minecraft:moss_block"
+  - "minecraft:stone"
+  - "minecraft:cobblestone"
+  - "minecraft:mossy_cobblestone"
+  - "minecraft:grass_block"
+  - "minecraft:dirt"
+  - "minecraft:granite"
+  - "minecraft:andesite"
+replaceable:
+  - "minecraft:air"
+ceiling: false

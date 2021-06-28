@@ -5,8 +5,8 @@ abstract: true
 
 
 carving:
-  CAVE: 50
-  RAVINE: 2
+  CAVE: 55
+  RAVINE: 3
 
 structures:
   - STRONGHOLD
@@ -20,6 +20,7 @@ flora:
       max: 56
     items:
       - GLOW_LICHEN: 1
+      - FLOOR_BUTTON: 1
   - density: 40
     y:
       min: 62
@@ -28,6 +29,7 @@ flora:
       - TALL_GRASS: 15
       - GRASS: 70
       - POPPY: 5
+      - FLOOR_BUTTON: 1
 trees:
   - density: 0.75
     items:

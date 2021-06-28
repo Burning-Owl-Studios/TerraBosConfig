@@ -10,6 +10,24 @@ palette:
   - SANDY: 62
   - GRASSY: 255
 vanilla: DARK_FOREST
+carving:
+  CAVE_DARKOAK: 55
+
+flora:
+  - density: 1
+    y:
+      min: 30
+      max: 60
+    items:
+      - GLOW_LICHEN: 1
+      - FLOOR_BUTTON: 1
+      - CEILING_LEAVES_DARK_OAK: 1
+  - density: 1
+    y:
+      min: 15
+      max: 60
+    items:
+      - HANGING_ROOTS: 1
 
 trees:
   - density: 0.75

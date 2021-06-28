@@ -1,0 +1,50 @@
+id: "CAVE_DARKOAK"
+extends: CAVE_ABSTRACT
+
+palette:
+  inner:
+    replace-blacklist: true
+    replace:
+      - "minecraft:air"
+      - "minecraft:water"
+      - "minecraft:lava"
+      - "minecraft:bedrock"
+      - "minecraft:ice"
+    layers:
+      - materials: { "minecraft:air": 1 }
+        y: 255
+      - materials: { "minecraft:lava": 1 }
+        y: 8
+  outer:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:stone": 63, "minecraft:cobblestone": 20, "minecraft:dark_oak_wood": 10, "minecraft:red_mushroom_block": 5, "minecraft:shroomlight": 2 }
+        y: 255
+      - materials: { "minecraft:stone": 67, "minecraft:cobblestone": 25, "minecraft:dark_oak_wood": 5, "minecraft:red_mushroom_block": 2, "minecraft:shroomlight": 1 }
+        y: 40
+      - materials: { "minecraft:deepslate": 60, "minecraft:stone": 25, "minecraft:obsidian": 5, "minecraft:blackstone": 10 }
+        y: 20
+  top:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:stone": 63, "minecraft:cobblestone": 20, "minecraft:dark_oak_wood": 10, "minecraft:red_mushroom_block": 5, "minecraft:shroomlight": 2 }
+        y: 255
+      - materials: { "minecraft:stone": 67, "minecraft:cobblestone": 25, "minecraft:dark_oak_wood": 5, "minecraft:red_mushroom_block": 2, "minecraft:shroomlight": 1 }
+        y: 40
+      - materials: { "minecraft:deepslate": 60, "minecraft:stone": 25, "minecraft:obsidian": 5, "minecraft:blackstone": 10 }
+        y: 20
+  bottom:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:stone": 63, "minecraft:cobblestone": 20, "minecraft:dark_oak_wood": 10 }
+        y: 255
+      - materials: { "minecraft:stone": 67, "minecraft:cobblestone": 25, "minecraft:dark_oak_wood": 5 }
+        y: 40
+      - materials: { "minecraft:deepslate": 60, "minecraft:stone": 25, "minecraft:obsidian": 5, "minecraft:blackstone": 10 }
+        y: 20

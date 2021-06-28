@@ -17,10 +17,18 @@ tags:
 flora:
   - density: 1
     y:
+      min: 30
+      max: 60
+    items:
+      - CEILING_LEAVES_OAK: 1
+  - density: 1
+    y:
       min: 10
       max: 56
     items:
       - GLOW_LICHEN: 1
+      - FLOOR_BUTTON: 1
+      - HANGING_ROOTS: 1
   - density: 45
     y:
       min: 62
@@ -32,6 +40,8 @@ flora:
       - ROSE_BUSH: 4
       - LILAC: 4
       - LEAVES: 100
+      - FLOOR_BUTTON: 1
+
 
 trees:
   - density: 0.75

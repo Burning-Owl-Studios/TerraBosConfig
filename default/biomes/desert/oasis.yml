@@ -41,6 +41,7 @@ flora:
     items:
       - SUGARCANE: 25
       - LILY_PAD: 10
+      - FLOOR_BUTTON: 1
 carving: {}
 
 trees:
