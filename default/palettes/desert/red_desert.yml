@@ -3,6 +3,14 @@ layers:
     layers: 3
   - materials: "minecraft:red_sandstone"
     layers: 4
-  - materials: "minecraft:stone"
+  - materials: 
+      - "minecraft:stone": 3
+      - "minecraft:red_sandstone": 3
+      - "minecraft:cobblestone": 1
+    layers: 10
+  - materials: 
+      - "minecraft:stone": 5
+      - "minecraft:cobblestone": 1
+      - "minecraft:red_sandstone": 1
     layers: 1
 id: RED_DESERT

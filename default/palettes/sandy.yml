@@ -3,8 +3,18 @@ layers:
       - "minecraft:sand": 4
       - "minecraft:gravel": 1
     layers: 1
-  - materials: "minecraft:dirt"
+  - materials: 
+      - "minecraft:gravel": 2
+      - "minecraft:dirt": 5
     layers: 2
-  - materials: "minecraft:stone"
+  - materials: 
+      - "minecraft:gravel": 1
+      - "minecraft:dirt": 1
+      - "minecraft:stone": 6
+      - "minecraft:cobblestone": 1
+    layers: 10
+  - materials: 
+      - "minecraft:stone": 5
+      - "minecraft:cobblestone": 1
     layers: 1
 id: "SANDY"

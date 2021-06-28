@@ -6,6 +6,8 @@ layers:
     layers: 1
   - materials: "minecraft:dirt"
     layers: 2
-  - materials: "minecraft:stone"
+  - materials: 
+      - "minecraft:stone": 5
+      - "minecraft:cobblestone": 1
     layers: 1
 id: "SWAMP_BOTTOM"
