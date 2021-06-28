@@ -1,5 +1,7 @@
-# TerraDefaultConfig
-Default configuration for Terra world generator  
+# Terra BOS Config
+BOS configuration for Terra world generator  
+
+See the base repository for TerraConfig [here](https://github.com/PolyhedralDev/TerraDefaultConfig)
 
 See the main repository for Terra [here](https://github.com/PolyhedralDev/Terra)
 
@@ -8,7 +10,7 @@ Custom Jungle Trees by [Murokmakto](https://www.planetminecraft.com/project/cust
 
 ## Licensing
 
-TerraDefaultConfig is licensed under a
+Terra BOS Config is like TerraDefaultConfig licensed under a
 Creative Commons Attribution 4.0 International License.
 
 You should have received a copy of the license along with this
